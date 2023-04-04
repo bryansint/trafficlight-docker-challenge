@@ -1,0 +1,828 @@
+2023/04/02 16:43:32 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 16:44:26 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 16:45:16 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 16:45:26 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 16:46:05 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 16:53:02 [emerg] 1#1: host not found in upstream "red" in /etc/nginx/conf.d/proxy.conf:4
+2023/04/02 17:01:00 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 17:13:31 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/load-balancer.conf:1
+2023/04/02 17:20:08 [emerg] 1#1: host not found in upstream "red:80" in /etc/nginx/conf.d/load-balancer.conf:2
+2023/04/02 17:22:15 [notice] 1#1: using the "epoll" event method
+2023/04/02 17:22:15 [notice] 1#1: nginx/1.23.4
+2023/04/02 17:22:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 17:22:15 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 17:22:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 17:22:15 [notice] 1#1: start worker processes
+2023/04/02 17:22:15 [notice] 1#1: start worker process 20
+2023/04/02 17:22:15 [notice] 1#1: start worker process 21
+2023/04/02 17:22:15 [notice] 1#1: start worker process 22
+2023/04/02 17:22:15 [notice] 1#1: start worker process 23
+2023/04/02 17:23:16 [error] 23#23: *4 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:23:16 [error] 23#23: *4 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:23:21 [error] 23#23: *4 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:23:22 [error] 23#23: *4 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:23:37 [error] 20#20: *6 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:23:38 [error] 20#20: *6 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:24:39 [error] 20#20: *8 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:24:39 [error] 20#20: *8 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:25:05 [error] 20#20: *10 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:25:06 [error] 20#20: *10 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:25:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 17:25:41 [notice] 21#21: gracefully shutting down
+2023/04/02 17:25:41 [notice] 21#21: exiting
+2023/04/02 17:25:41 [notice] 23#23: gracefully shutting down
+2023/04/02 17:25:41 [notice] 23#23: exiting
+2023/04/02 17:25:41 [notice] 22#22: gracefully shutting down
+2023/04/02 17:25:41 [notice] 22#22: exiting
+2023/04/02 17:25:41 [notice] 20#20: gracefully shutting down
+2023/04/02 17:25:41 [notice] 20#20: exiting
+2023/04/02 17:25:41 [notice] 21#21: exit
+2023/04/02 17:25:41 [notice] 23#23: exit
+2023/04/02 17:25:41 [notice] 22#22: exit
+2023/04/02 17:25:41 [notice] 20#20: exit
+2023/04/02 17:25:41 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/02 17:25:41 [notice] 1#1: worker process 23 exited with code 0
+2023/04/02 17:25:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/02 17:25:41 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/02 17:25:41 [notice] 1#1: worker process 20 exited with code 0
+2023/04/02 17:25:41 [notice] 1#1: worker process 21 exited with code 0
+2023/04/02 17:25:41 [notice] 1#1: worker process 22 exited with code 0
+2023/04/02 17:25:41 [notice] 1#1: exit
+2023/04/02 17:33:17 [notice] 1#1: using the "epoll" event method
+2023/04/02 17:33:17 [notice] 1#1: nginx/1.23.4
+2023/04/02 17:33:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 17:33:17 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 17:33:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 17:33:17 [notice] 1#1: start worker processes
+2023/04/02 17:33:17 [notice] 1#1: start worker process 21
+2023/04/02 17:33:17 [notice] 1#1: start worker process 22
+2023/04/02 17:33:17 [notice] 1#1: start worker process 23
+2023/04/02 17:33:17 [notice] 1#1: start worker process 24
+2023/04/02 17:33:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 17:33:22 [notice] 24#24: gracefully shutting down
+2023/04/02 17:33:22 [notice] 21#21: gracefully shutting down
+2023/04/02 17:33:22 [notice] 22#22: gracefully shutting down
+2023/04/02 17:33:22 [notice] 23#23: gracefully shutting down
+2023/04/02 17:33:22 [notice] 23#23: exiting
+2023/04/02 17:33:22 [notice] 24#24: exiting
+2023/04/02 17:33:22 [notice] 21#21: exiting
+2023/04/02 17:33:22 [notice] 22#22: exiting
+2023/04/02 17:33:22 [notice] 22#22: exit
+2023/04/02 17:33:22 [notice] 23#23: exit
+2023/04/02 17:33:22 [notice] 24#24: exit
+2023/04/02 17:33:22 [notice] 21#21: exit
+2023/04/02 17:33:54 [notice] 1#1: using the "epoll" event method
+2023/04/02 17:33:54 [notice] 1#1: nginx/1.23.4
+2023/04/02 17:33:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 17:33:54 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 17:33:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 17:33:54 [notice] 1#1: start worker processes
+2023/04/02 17:33:54 [notice] 1#1: start worker process 19
+2023/04/02 17:33:54 [notice] 1#1: start worker process 20
+2023/04/02 17:33:54 [notice] 1#1: start worker process 21
+2023/04/02 17:33:54 [notice] 1#1: start worker process 22
+2023/04/02 17:34:12 [error] 19#19: *1 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:34:12 [error] 19#19: *1 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:34:22 [error] 22#22: *4 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:34:22 [error] 22#22: *4 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:47:27 [error] 19#19: *6 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:47:27 [error] 19#19: *6 open() "/etc/nginx/.htpasswd" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:47:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 17:47:55 [notice] 20#20: gracefully shutting down
+2023/04/02 17:47:55 [notice] 20#20: exiting
+2023/04/02 17:47:55 [notice] 21#21: gracefully shutting down
+2023/04/02 17:47:55 [notice] 22#22: gracefully shutting down
+2023/04/02 17:47:55 [notice] 22#22: exiting
+2023/04/02 17:47:55 [notice] 19#19: gracefully shutting down
+2023/04/02 17:47:55 [notice] 20#20: exit
+2023/04/02 17:47:55 [notice] 21#21: exiting
+2023/04/02 17:47:55 [notice] 22#22: exit
+2023/04/02 17:47:55 [notice] 19#19: exiting
+2023/04/02 17:48:52 [notice] 1#1: using the "epoll" event method
+2023/04/02 17:48:52 [notice] 1#1: nginx/1.23.4
+2023/04/02 17:48:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 17:48:52 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 17:48:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 17:48:52 [notice] 1#1: start worker processes
+2023/04/02 17:48:52 [notice] 1#1: start worker process 20
+2023/04/02 17:48:52 [notice] 1#1: start worker process 21
+2023/04/02 17:48:52 [notice] 1#1: start worker process 22
+2023/04/02 17:48:52 [notice] 1#1: start worker process 23
+2023/04/02 17:49:20 [error] 21#21: *2 user "normal": password mismatch, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:49:28 [error] 21#21: *2 user "normal": password mismatch, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:49:37 [error] 22#22: *3 user "normal": password mismatch, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:50:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 17:50:14 [notice] 20#20: gracefully shutting down
+2023/04/02 17:50:14 [notice] 21#21: gracefully shutting down
+2023/04/02 17:50:14 [notice] 22#22: gracefully shutting down
+2023/04/02 17:50:14 [notice] 23#23: gracefully shutting down
+2023/04/02 17:50:14 [notice] 20#20: exiting
+2023/04/02 17:50:14 [notice] 21#21: exiting
+2023/04/02 17:50:14 [notice] 22#22: exiting
+2023/04/02 17:50:14 [notice] 23#23: exiting
+2023/04/02 17:50:14 [notice] 20#20: exit
+2023/04/02 17:50:14 [notice] 21#21: exit
+2023/04/02 17:50:14 [notice] 22#22: exit
+2023/04/02 17:50:14 [notice] 23#23: exit
+2023/04/02 17:50:14 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/02 17:50:14 [notice] 1#1: worker process 20 exited with code 0
+2023/04/02 17:50:14 [notice] 1#1: worker process 21 exited with code 0
+2023/04/02 17:50:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/02 17:50:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/02 17:50:14 [notice] 1#1: worker process 22 exited with code 0
+2023/04/02 17:50:14 [notice] 1#1: worker process 23 exited with code 0
+2023/04/02 17:50:14 [notice] 1#1: exit
+2023/04/02 17:51:15 [notice] 1#1: using the "epoll" event method
+2023/04/02 17:51:15 [notice] 1#1: nginx/1.23.4
+2023/04/02 17:51:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 17:51:15 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 17:51:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 17:51:15 [notice] 1#1: start worker processes
+2023/04/02 17:51:15 [notice] 1#1: start worker process 20
+2023/04/02 17:51:15 [notice] 1#1: start worker process 21
+2023/04/02 17:51:15 [notice] 1#1: start worker process 22
+2023/04/02 17:51:15 [notice] 1#1: start worker process 23
+2023/04/02 17:51:26 [error] 20#20: *1 user "normal": password mismatch, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:57:37 [error] 22#22: *3 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:57:37 [error] 22#22: *3 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 17:58:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 17:58:48 [notice] 21#21: gracefully shutting down
+2023/04/02 17:58:48 [notice] 21#21: exiting
+2023/04/02 17:58:48 [notice] 23#23: gracefully shutting down
+2023/04/02 17:58:48 [notice] 22#22: gracefully shutting down
+2023/04/02 17:58:48 [notice] 20#20: gracefully shutting down
+2023/04/02 17:58:48 [notice] 20#20: exiting
+2023/04/02 17:58:48 [notice] 21#21: exit
+2023/04/02 17:58:48 [notice] 23#23: exiting
+2023/04/02 17:58:48 [notice] 23#23: exit
+2023/04/02 17:58:48 [notice] 22#22: exiting
+2023/04/02 17:58:48 [notice] 22#22: exit
+2023/04/02 17:58:48 [notice] 20#20: exit
+2023/04/02 17:58:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/02 17:58:49 [notice] 1#1: worker process 22 exited with code 0
+2023/04/02 17:58:49 [notice] 1#1: worker process 21 exited with code 0
+2023/04/02 17:58:49 [notice] 1#1: worker process 23 exited with code 0
+2023/04/02 17:58:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/02 17:58:49 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/02 17:58:49 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/02 17:58:49 [notice] 1#1: worker process 20 exited with code 0
+2023/04/02 17:58:49 [notice] 1#1: exit
+2023/04/02 17:59:34 [notice] 1#1: using the "epoll" event method
+2023/04/02 17:59:34 [notice] 1#1: nginx/1.23.4
+2023/04/02 17:59:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 17:59:34 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 17:59:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 17:59:34 [notice] 1#1: start worker processes
+2023/04/02 17:59:34 [notice] 1#1: start worker process 20
+2023/04/02 17:59:34 [notice] 1#1: start worker process 21
+2023/04/02 17:59:34 [notice] 1#1: start worker process 22
+2023/04/02 17:59:34 [notice] 1#1: start worker process 23
+2023/04/02 17:59:44 [error] 20#20: *1 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 17:59:44 [error] 20#20: *1 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 18:00:06 [error] 21#21: *2 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 18:00:06 [error] 21#21: *2 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 18:00:08 [error] 22#22: *3 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 18:00:08 [error] 22#22: *3 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 18:00:10 [error] 22#22: *3 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 18:00:11 [error] 22#22: *3 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 18:01:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 18:01:00 [notice] 20#20: gracefully shutting down
+2023/04/02 18:01:00 [notice] 21#21: gracefully shutting down
+2023/04/02 18:01:00 [notice] 21#21: exiting
+2023/04/02 18:01:00 [notice] 22#22: gracefully shutting down
+2023/04/02 18:01:00 [notice] 22#22: exiting
+2023/04/02 18:01:00 [notice] 23#23: gracefully shutting down
+2023/04/02 18:01:00 [notice] 20#20: exiting
+2023/04/02 18:01:00 [notice] 21#21: exit
+2023/04/02 18:01:00 [notice] 22#22: exit
+2023/04/02 18:01:00 [notice] 23#23: exiting
+2023/04/02 18:01:00 [notice] 23#23: exit
+2023/04/02 18:01:00 [notice] 20#20: exit
+2023/04/02 18:01:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/02 18:01:01 [notice] 1#1: worker process 22 exited with code 0
+2023/04/02 18:01:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/02 18:01:01 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/02 18:01:01 [notice] 1#1: worker process 20 exited with code 0
+2023/04/02 18:01:01 [notice] 1#1: worker process 21 exited with code 0
+2023/04/02 18:01:01 [notice] 1#1: worker process 23 exited with code 0
+2023/04/02 18:01:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/02 18:01:01 [notice] 1#1: exit
+2023/04/02 18:01:05 [notice] 1#1: using the "epoll" event method
+2023/04/02 18:01:05 [notice] 1#1: nginx/1.23.4
+2023/04/02 18:01:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/02 18:01:05 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/02 18:01:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/02 18:01:05 [notice] 1#1: start worker processes
+2023/04/02 18:01:05 [notice] 1#1: start worker process 19
+2023/04/02 18:01:05 [notice] 1#1: start worker process 20
+2023/04/02 18:01:05 [notice] 1#1: start worker process 21
+2023/04/02 18:01:05 [notice] 1#1: start worker process 22
+2023/04/02 18:09:28 [error] 20#20: *2 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/04/02 18:09:28 [error] 20#20: *2 open() "/etc/nginx/conf.d/.htpasswd" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/02 18:32:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/02 18:32:56 [notice] 19#19: gracefully shutting down
+2023/04/02 18:32:56 [notice] 20#20: gracefully shutting down
+2023/04/02 18:32:56 [notice] 22#22: gracefully shutting down
+2023/04/02 18:32:56 [notice] 21#21: gracefully shutting down
+2023/04/02 18:32:56 [notice] 19#19: exiting
+2023/04/02 18:32:56 [notice] 22#22: exiting
+2023/04/02 18:32:56 [notice] 20#20: exiting
+2023/04/02 18:32:56 [notice] 19#19: exit
+2023/04/02 18:32:56 [notice] 22#22: exit
+2023/04/02 18:32:56 [notice] 21#21: exiting
+2023/04/02 18:32:56 [notice] 21#21: exit
+2023/04/02 18:32:56 [notice] 20#20: exit
+2023/04/02 18:32:57 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/02 18:32:57 [notice] 1#1: worker process 20 exited with code 0
+2023/04/02 18:32:57 [notice] 1#1: worker process 22 exited with code 0
+2023/04/02 18:32:57 [notice] 1#1: worker process 19 exited with code 0
+2023/04/02 18:32:57 [notice] 1#1: worker process 21 exited with code 0
+2023/04/02 18:32:58 [notice] 1#1: exit
+2023/04/04 14:28:30 [notice] 1#1: using the "epoll" event method
+2023/04/04 14:28:30 [notice] 1#1: nginx/1.23.4
+2023/04/04 14:28:30 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 14:28:30 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 14:28:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 14:28:30 [notice] 1#1: start worker processes
+2023/04/04 14:28:30 [notice] 1#1: start worker process 20
+2023/04/04 14:28:30 [notice] 1#1: start worker process 21
+2023/04/04 14:28:30 [notice] 1#1: start worker process 22
+2023/04/04 14:28:30 [notice] 1#1: start worker process 23
+2023/04/04 14:29:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 14:29:59 [notice] 20#20: gracefully shutting down
+2023/04/04 14:29:59 [notice] 21#21: gracefully shutting down
+2023/04/04 14:29:59 [notice] 22#22: gracefully shutting down
+2023/04/04 14:29:59 [notice] 23#23: gracefully shutting down
+2023/04/04 14:29:59 [notice] 20#20: exiting
+2023/04/04 14:29:59 [notice] 21#21: exiting
+2023/04/04 14:29:59 [notice] 20#20: exit
+2023/04/04 14:29:59 [notice] 22#22: exiting
+2023/04/04 14:29:59 [notice] 23#23: exiting
+2023/04/04 14:29:59 [notice] 21#21: exit
+2023/04/04 14:29:59 [notice] 22#22: exit
+2023/04/04 14:29:59 [notice] 23#23: exit
+2023/04/04 14:29:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 14:29:59 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 14:29:59 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 14:29:59 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 14:29:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:29:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 14:29:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 14:29:59 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 14:29:59 [notice] 1#1: exit
+2023/04/04 14:45:03 [notice] 1#1: using the "epoll" event method
+2023/04/04 14:45:03 [notice] 1#1: nginx/1.23.4
+2023/04/04 14:45:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 14:45:03 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 14:45:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 14:45:03 [notice] 1#1: start worker processes
+2023/04/04 14:45:03 [notice] 1#1: start worker process 20
+2023/04/04 14:45:03 [notice] 1#1: start worker process 21
+2023/04/04 14:45:03 [notice] 1#1: start worker process 22
+2023/04/04 14:45:03 [notice] 1#1: start worker process 23
+2023/04/04 14:51:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 14:51:36 [notice] 20#20: gracefully shutting down
+2023/04/04 14:51:36 [notice] 20#20: exiting
+2023/04/04 14:51:36 [notice] 22#22: gracefully shutting down
+2023/04/04 14:51:36 [notice] 22#22: exiting
+2023/04/04 14:51:36 [notice] 21#21: gracefully shutting down
+2023/04/04 14:51:36 [notice] 23#23: gracefully shutting down
+2023/04/04 14:51:36 [notice] 20#20: exit
+2023/04/04 14:51:36 [notice] 22#22: exit
+2023/04/04 14:51:36 [notice] 21#21: exiting
+2023/04/04 14:51:36 [notice] 23#23: exiting
+2023/04/04 14:51:36 [notice] 21#21: exit
+2023/04/04 14:51:36 [notice] 23#23: exit
+2023/04/04 14:51:36 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 14:51:36 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 14:51:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:51:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 14:51:36 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 14:51:36 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 14:51:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:51:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 14:51:36 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 14:51:36 [notice] 1#1: exit
+2023/04/04 14:52:43 [notice] 1#1: using the "epoll" event method
+2023/04/04 14:52:43 [notice] 1#1: nginx/1.23.4
+2023/04/04 14:52:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 14:52:43 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 14:52:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 14:52:43 [notice] 1#1: start worker processes
+2023/04/04 14:52:43 [notice] 1#1: start worker process 20
+2023/04/04 14:52:43 [notice] 1#1: start worker process 21
+2023/04/04 14:52:43 [notice] 1#1: start worker process 22
+2023/04/04 14:52:43 [notice] 1#1: start worker process 23
+2023/04/04 14:56:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 14:56:02 [notice] 20#20: gracefully shutting down
+2023/04/04 14:56:02 [notice] 21#21: gracefully shutting down
+2023/04/04 14:56:02 [notice] 21#21: exiting
+2023/04/04 14:56:02 [notice] 23#23: gracefully shutting down
+2023/04/04 14:56:02 [notice] 22#22: gracefully shutting down
+2023/04/04 14:56:02 [notice] 20#20: exiting
+2023/04/04 14:56:02 [notice] 21#21: exit
+2023/04/04 14:56:02 [notice] 23#23: exiting
+2023/04/04 14:56:02 [notice] 22#22: exiting
+2023/04/04 14:56:02 [notice] 22#22: exit
+2023/04/04 14:56:02 [notice] 20#20: exit
+2023/04/04 14:56:02 [notice] 23#23: exit
+2023/04/04 14:56:02 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 14:56:02 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 14:56:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:56:02 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 14:56:02 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 14:56:02 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 14:56:02 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 14:56:02 [notice] 1#1: exit
+2023/04/04 14:56:18 [notice] 1#1: using the "epoll" event method
+2023/04/04 14:56:18 [notice] 1#1: nginx/1.23.4
+2023/04/04 14:56:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 14:56:18 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 14:56:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 14:56:18 [notice] 1#1: start worker processes
+2023/04/04 14:56:18 [notice] 1#1: start worker process 20
+2023/04/04 14:56:18 [notice] 1#1: start worker process 21
+2023/04/04 14:56:18 [notice] 1#1: start worker process 22
+2023/04/04 14:56:18 [notice] 1#1: start worker process 23
+2023/04/04 14:56:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 14:56:52 [notice] 20#20: gracefully shutting down
+2023/04/04 14:56:52 [notice] 21#21: gracefully shutting down
+2023/04/04 14:56:52 [notice] 22#22: gracefully shutting down
+2023/04/04 14:56:52 [notice] 23#23: gracefully shutting down
+2023/04/04 14:56:52 [notice] 20#20: exiting
+2023/04/04 14:56:52 [notice] 21#21: exiting
+2023/04/04 14:56:52 [notice] 22#22: exiting
+2023/04/04 14:56:52 [notice] 23#23: exiting
+2023/04/04 14:56:52 [notice] 20#20: exit
+2023/04/04 14:56:52 [notice] 21#21: exit
+2023/04/04 14:56:52 [notice] 22#22: exit
+2023/04/04 14:56:52 [notice] 23#23: exit
+2023/04/04 14:56:52 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 14:56:52 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 14:56:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:56:52 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 14:56:52 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 14:56:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:56:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 14:56:52 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 14:56:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:56:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 14:56:52 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 14:56:52 [notice] 1#1: exit
+2023/04/04 14:56:54 [notice] 1#1: using the "epoll" event method
+2023/04/04 14:56:54 [notice] 1#1: nginx/1.23.4
+2023/04/04 14:56:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 14:56:54 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 14:56:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 14:56:54 [notice] 1#1: start worker processes
+2023/04/04 14:56:54 [notice] 1#1: start worker process 21
+2023/04/04 14:56:54 [notice] 1#1: start worker process 22
+2023/04/04 14:56:54 [notice] 1#1: start worker process 23
+2023/04/04 14:56:54 [notice] 1#1: start worker process 24
+2023/04/04 14:57:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 14:57:59 [notice] 22#22: gracefully shutting down
+2023/04/04 14:57:59 [notice] 22#22: exiting
+2023/04/04 14:57:59 [notice] 23#23: gracefully shutting down
+2023/04/04 14:57:59 [notice] 21#21: gracefully shutting down
+2023/04/04 14:57:59 [notice] 24#24: gracefully shutting down
+2023/04/04 14:57:59 [notice] 22#22: exit
+2023/04/04 14:57:59 [notice] 23#23: exiting
+2023/04/04 14:57:59 [notice] 21#21: exiting
+2023/04/04 14:57:59 [notice] 24#24: exiting
+2023/04/04 14:57:59 [notice] 23#23: exit
+2023/04/04 14:57:59 [notice] 21#21: exit
+2023/04/04 14:57:59 [notice] 24#24: exit
+2023/04/04 14:57:59 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 14:57:59 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 14:57:59 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 14:57:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 14:57:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/04 14:57:59 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 14:57:59 [notice] 1#1: worker process 24 exited with code 0
+2023/04/04 14:57:59 [notice] 1#1: exit
+2023/04/04 14:58:19 [notice] 1#1: using the "epoll" event method
+2023/04/04 14:58:19 [notice] 1#1: nginx/1.23.4
+2023/04/04 14:58:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 14:58:19 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 14:58:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 14:58:19 [notice] 1#1: start worker processes
+2023/04/04 14:58:19 [notice] 1#1: start worker process 20
+2023/04/04 14:58:19 [notice] 1#1: start worker process 21
+2023/04/04 14:58:19 [notice] 1#1: start worker process 22
+2023/04/04 14:58:19 [notice] 1#1: start worker process 23
+2023/04/04 15:03:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:03:36 [notice] 20#20: gracefully shutting down
+2023/04/04 15:03:36 [notice] 20#20: exiting
+2023/04/04 15:03:36 [notice] 21#21: gracefully shutting down
+2023/04/04 15:03:36 [notice] 23#23: gracefully shutting down
+2023/04/04 15:03:36 [notice] 23#23: exiting
+2023/04/04 15:03:36 [notice] 22#22: gracefully shutting down
+2023/04/04 15:03:36 [notice] 22#22: exiting
+2023/04/04 15:03:36 [notice] 20#20: exit
+2023/04/04 15:03:36 [notice] 21#21: exiting
+2023/04/04 15:03:36 [notice] 23#23: exit
+2023/04/04 15:03:36 [notice] 22#22: exit
+2023/04/04 15:03:36 [notice] 21#21: exit
+2023/04/04 15:03:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 15:03:36 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:03:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:03:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 15:03:36 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:03:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:03:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 15:03:36 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:03:36 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:03:36 [notice] 1#1: exit
+2023/04/04 15:03:38 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:03:38 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:03:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:03:38 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:03:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:03:38 [notice] 1#1: start worker processes
+2023/04/04 15:03:38 [notice] 1#1: start worker process 20
+2023/04/04 15:03:38 [notice] 1#1: start worker process 21
+2023/04/04 15:03:38 [notice] 1#1: start worker process 22
+2023/04/04 15:03:38 [notice] 1#1: start worker process 23
+2023/04/04 15:03:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:03:55 [notice] 22#22: gracefully shutting down
+2023/04/04 15:03:55 [notice] 21#21: gracefully shutting down
+2023/04/04 15:03:55 [notice] 21#21: exiting
+2023/04/04 15:03:55 [notice] 20#20: gracefully shutting down
+2023/04/04 15:03:55 [notice] 20#20: exiting
+2023/04/04 15:03:55 [notice] 23#23: gracefully shutting down
+2023/04/04 15:03:55 [notice] 23#23: exiting
+2023/04/04 15:03:55 [notice] 23#23: exit
+2023/04/04 15:03:55 [notice] 22#22: exiting
+2023/04/04 15:03:55 [notice] 21#21: exit
+2023/04/04 15:03:55 [notice] 20#20: exit
+2023/04/04 15:03:55 [notice] 22#22: exit
+2023/04/04 15:03:55 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 15:03:55 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:03:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:03:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 15:03:55 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:03:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:03:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 15:03:55 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:03:55 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:03:55 [notice] 1#1: exit
+2023/04/04 15:03:56 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:03:56 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:03:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:03:56 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:03:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:03:56 [notice] 1#1: start worker processes
+2023/04/04 15:03:56 [notice] 1#1: start worker process 20
+2023/04/04 15:03:56 [notice] 1#1: start worker process 21
+2023/04/04 15:03:56 [notice] 1#1: start worker process 22
+2023/04/04 15:03:56 [notice] 1#1: start worker process 23
+2023/04/04 15:12:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:12:20 [notice] 20#20: gracefully shutting down
+2023/04/04 15:12:20 [notice] 23#23: gracefully shutting down
+2023/04/04 15:12:20 [notice] 20#20: exiting
+2023/04/04 15:12:20 [notice] 22#22: gracefully shutting down
+2023/04/04 15:12:20 [notice] 23#23: exiting
+2023/04/04 15:12:20 [notice] 23#23: exit
+2023/04/04 15:12:20 [notice] 22#22: exiting
+2023/04/04 15:12:20 [notice] 21#21: gracefully shutting down
+2023/04/04 15:12:20 [notice] 20#20: exit
+2023/04/04 15:12:20 [notice] 22#22: exit
+2023/04/04 15:12:20 [notice] 21#21: exiting
+2023/04/04 15:12:20 [notice] 21#21: exit
+2023/04/04 15:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 15:12:20 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:12:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 15:12:20 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:12:20 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:12:20 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 15:12:20 [notice] 1#1: exit
+2023/04/04 15:12:24 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:12:24 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:12:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:12:24 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:12:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:12:24 [notice] 1#1: start worker processes
+2023/04/04 15:12:24 [notice] 1#1: start worker process 20
+2023/04/04 15:12:24 [notice] 1#1: start worker process 21
+2023/04/04 15:12:24 [notice] 1#1: start worker process 22
+2023/04/04 15:12:24 [notice] 1#1: start worker process 23
+2023/04/04 15:12:38 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.16.0.1, server: , request: "GET /phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0 HTTP/1.1", upstream: "http://172.16.0.2:80/phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0", host: "localhost"
+2023/04/04 15:12:38 [warn] 21#21: *1 upstream server temporarily disabled while connecting to upstream, client: 172.16.0.1, server: , request: "GET /phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0 HTTP/1.1", upstream: "http://172.16.0.2:80/phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0", host: "localhost"
+2023/04/04 15:12:38 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.16.0.1, server: , request: "GET /phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0 HTTP/1.1", upstream: "http://172.16.0.3:80/phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0", host: "localhost"
+2023/04/04 15:12:38 [warn] 21#21: *1 upstream server temporarily disabled while connecting to upstream, client: 172.16.0.1, server: , request: "GET /phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0 HTTP/1.1", upstream: "http://172.16.0.3:80/phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0", host: "localhost"
+2023/04/04 15:12:38 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.16.0.1, server: , request: "GET /phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0 HTTP/1.1", upstream: "http://172.16.0.4:80/phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0", host: "localhost"
+2023/04/04 15:12:38 [warn] 21#21: *1 upstream server temporarily disabled while connecting to upstream, client: 172.16.0.1, server: , request: "GET /phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0 HTTP/1.1", upstream: "http://172.16.0.4:80/phpmyadmin/index.php?route=/sql&db=discos&table=artista&pos=0", host: "localhost"
+2023/04/04 15:15:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:15:17 [notice] 20#20: gracefully shutting down
+2023/04/04 15:15:17 [notice] 21#21: gracefully shutting down
+2023/04/04 15:15:17 [notice] 23#23: gracefully shutting down
+2023/04/04 15:15:17 [notice] 22#22: gracefully shutting down
+2023/04/04 15:15:17 [notice] 22#22: exiting
+2023/04/04 15:15:17 [notice] 23#23: exiting
+2023/04/04 15:15:17 [notice] 20#20: exiting
+2023/04/04 15:15:17 [notice] 21#21: exiting
+2023/04/04 15:15:17 [notice] 22#22: exit
+2023/04/04 15:15:17 [notice] 23#23: exit
+2023/04/04 15:15:17 [notice] 20#20: exit
+2023/04/04 15:15:17 [notice] 21#21: exit
+2023/04/04 15:15:17 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 15:15:17 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:15:17 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:15:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:15:17 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 15:15:17 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:15:17 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:15:17 [notice] 1#1: exit
+2023/04/04 15:15:19 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:15:19 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:15:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:15:19 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:15:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:15:19 [notice] 1#1: start worker processes
+2023/04/04 15:15:19 [notice] 1#1: start worker process 20
+2023/04/04 15:15:19 [notice] 1#1: start worker process 21
+2023/04/04 15:15:19 [notice] 1#1: start worker process 22
+2023/04/04 15:15:19 [notice] 1#1: start worker process 23
+2023/04/04 15:15:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:15:40 [notice] 21#21: gracefully shutting down
+2023/04/04 15:15:40 [notice] 20#20: gracefully shutting down
+2023/04/04 15:15:40 [notice] 23#23: gracefully shutting down
+2023/04/04 15:15:40 [notice] 23#23: exiting
+2023/04/04 15:15:40 [notice] 22#22: gracefully shutting down
+2023/04/04 15:15:40 [notice] 21#21: exiting
+2023/04/04 15:15:40 [notice] 21#21: exit
+2023/04/04 15:15:40 [notice] 20#20: exiting
+2023/04/04 15:15:40 [notice] 23#23: exit
+2023/04/04 15:15:40 [notice] 22#22: exiting
+2023/04/04 15:15:40 [notice] 20#20: exit
+2023/04/04 15:15:40 [notice] 22#22: exit
+2023/04/04 15:15:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 15:15:40 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:15:40 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:15:40 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:15:40 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:15:40 [notice] 1#1: exit
+2023/04/04 15:16:22 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:16:22 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:16:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:16:22 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:16:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:16:22 [notice] 1#1: start worker processes
+2023/04/04 15:16:22 [notice] 1#1: start worker process 20
+2023/04/04 15:16:22 [notice] 1#1: start worker process 21
+2023/04/04 15:16:22 [notice] 1#1: start worker process 22
+2023/04/04 15:16:22 [notice] 1#1: start worker process 23
+2023/04/04 15:19:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:19:14 [notice] 20#20: gracefully shutting down
+2023/04/04 15:19:14 [notice] 20#20: exiting
+2023/04/04 15:19:14 [notice] 21#21: gracefully shutting down
+2023/04/04 15:19:14 [notice] 21#21: exiting
+2023/04/04 15:19:14 [notice] 23#23: gracefully shutting down
+2023/04/04 15:19:14 [notice] 23#23: exiting
+2023/04/04 15:19:14 [notice] 22#22: gracefully shutting down
+2023/04/04 15:19:14 [notice] 20#20: exit
+2023/04/04 15:19:14 [notice] 21#21: exit
+2023/04/04 15:19:14 [notice] 23#23: exit
+2023/04/04 15:19:14 [notice] 22#22: exiting
+2023/04/04 15:19:14 [notice] 22#22: exit
+2023/04/04 15:19:14 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 15:19:14 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:19:14 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:19:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:19:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 15:19:14 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:19:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:19:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 15:19:14 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:19:14 [notice] 1#1: exit
+2023/04/04 15:19:32 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:19:32 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:19:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:19:32 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:19:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:19:32 [notice] 1#1: start worker processes
+2023/04/04 15:19:32 [notice] 1#1: start worker process 20
+2023/04/04 15:19:32 [notice] 1#1: start worker process 21
+2023/04/04 15:19:32 [notice] 1#1: start worker process 22
+2023/04/04 15:19:32 [notice] 1#1: start worker process 23
+2023/04/04 15:20:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:20:26 [notice] 20#20: gracefully shutting down
+2023/04/04 15:20:26 [notice] 21#21: gracefully shutting down
+2023/04/04 15:20:26 [notice] 22#22: gracefully shutting down
+2023/04/04 15:20:26 [notice] 23#23: gracefully shutting down
+2023/04/04 15:20:26 [notice] 23#23: exiting
+2023/04/04 15:20:26 [notice] 20#20: exiting
+2023/04/04 15:20:26 [notice] 21#21: exiting
+2023/04/04 15:20:26 [notice] 21#21: exit
+2023/04/04 15:20:26 [notice] 22#22: exiting
+2023/04/04 15:20:26 [notice] 23#23: exit
+2023/04/04 15:20:26 [notice] 20#20: exit
+2023/04/04 15:20:26 [notice] 22#22: exit
+2023/04/04 15:20:26 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 15:20:26 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:20:26 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:20:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:20:26 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 15:20:26 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:20:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:20:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 15:20:26 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:20:26 [notice] 1#1: exit
+2023/04/04 15:20:43 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:20:43 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:20:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:20:43 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:20:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:20:43 [notice] 1#1: start worker processes
+2023/04/04 15:20:43 [notice] 1#1: start worker process 20
+2023/04/04 15:20:43 [notice] 1#1: start worker process 21
+2023/04/04 15:20:43 [notice] 1#1: start worker process 22
+2023/04/04 15:20:43 [notice] 1#1: start worker process 23
+2023/04/04 15:35:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:35:52 [notice] 23#23: gracefully shutting down
+2023/04/04 15:35:52 [notice] 20#20: gracefully shutting down
+2023/04/04 15:35:52 [notice] 21#21: gracefully shutting down
+2023/04/04 15:35:52 [notice] 22#22: gracefully shutting down
+2023/04/04 15:35:52 [notice] 23#23: exiting
+2023/04/04 15:35:52 [notice] 20#20: exiting
+2023/04/04 15:35:52 [notice] 21#21: exiting
+2023/04/04 15:35:52 [notice] 22#22: exiting
+2023/04/04 15:35:52 [notice] 23#23: exit
+2023/04/04 15:35:52 [notice] 20#20: exit
+2023/04/04 15:35:52 [notice] 21#21: exit
+2023/04/04 15:35:52 [notice] 22#22: exit
+2023/04/04 15:35:52 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 15:35:52 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:35:52 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:35:52 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:35:52 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:35:52 [notice] 1#1: exit
+2023/04/04 15:50:24 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:50:24 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:50:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:50:24 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:50:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:50:24 [notice] 1#1: start worker processes
+2023/04/04 15:50:24 [notice] 1#1: start worker process 20
+2023/04/04 15:50:24 [notice] 1#1: start worker process 21
+2023/04/04 15:50:24 [notice] 1#1: start worker process 22
+2023/04/04 15:50:24 [notice] 1#1: start worker process 23
+2023/04/04 15:51:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 15:51:55 [notice] 20#20: gracefully shutting down
+2023/04/04 15:51:55 [notice] 20#20: exiting
+2023/04/04 15:51:55 [notice] 20#20: exit
+2023/04/04 15:51:55 [notice] 21#21: gracefully shutting down
+2023/04/04 15:51:55 [notice] 22#22: gracefully shutting down
+2023/04/04 15:51:55 [notice] 22#22: exiting
+2023/04/04 15:51:55 [notice] 23#23: gracefully shutting down
+2023/04/04 15:51:55 [notice] 23#23: exiting
+2023/04/04 15:51:55 [notice] 21#21: exiting
+2023/04/04 15:51:55 [notice] 22#22: exit
+2023/04/04 15:51:55 [notice] 23#23: exit
+2023/04/04 15:51:55 [notice] 21#21: exit
+2023/04/04 15:51:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 15:51:55 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 15:51:55 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 15:51:55 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 15:51:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 15:51:55 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 15:51:55 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 15:51:55 [notice] 1#1: exit
+2023/04/04 15:53:22 [notice] 1#1: using the "epoll" event method
+2023/04/04 15:53:22 [notice] 1#1: nginx/1.23.4
+2023/04/04 15:53:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 15:53:22 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 15:53:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 15:53:22 [notice] 1#1: start worker processes
+2023/04/04 15:53:22 [notice] 1#1: start worker process 19
+2023/04/04 15:53:22 [notice] 1#1: start worker process 20
+2023/04/04 15:53:22 [notice] 1#1: start worker process 21
+2023/04/04 15:53:22 [notice] 1#1: start worker process 22
+2023/04/04 16:06:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 16:06:31 [notice] 19#19: gracefully shutting down
+2023/04/04 16:06:31 [notice] 20#20: gracefully shutting down
+2023/04/04 16:06:31 [notice] 21#21: gracefully shutting down
+2023/04/04 16:06:31 [notice] 22#22: gracefully shutting down
+2023/04/04 16:06:31 [notice] 20#20: exiting
+2023/04/04 16:06:31 [notice] 21#21: exiting
+2023/04/04 16:06:31 [notice] 19#19: exiting
+2023/04/04 16:06:31 [notice] 20#20: exit
+2023/04/04 16:06:31 [notice] 22#22: exiting
+2023/04/04 16:06:31 [notice] 21#21: exit
+2023/04/04 16:06:31 [notice] 19#19: exit
+2023/04/04 16:06:31 [notice] 22#22: exit
+2023/04/04 16:06:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 16:06:32 [notice] 1#1: worker process 19 exited with code 0
+2023/04/04 16:06:32 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 16:06:32 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 16:06:32 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 16:06:32 [notice] 1#1: exit
+2023/04/04 16:06:55 [notice] 1#1: using the "epoll" event method
+2023/04/04 16:06:55 [notice] 1#1: nginx/1.23.4
+2023/04/04 16:06:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 16:06:55 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 16:06:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 16:06:55 [notice] 1#1: start worker processes
+2023/04/04 16:06:55 [notice] 1#1: start worker process 21
+2023/04/04 16:06:55 [notice] 1#1: start worker process 22
+2023/04/04 16:06:55 [notice] 1#1: start worker process 23
+2023/04/04 16:06:55 [notice] 1#1: start worker process 24
+2023/04/04 16:09:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 16:09:01 [notice] 21#21: gracefully shutting down
+2023/04/04 16:09:01 [notice] 22#22: gracefully shutting down
+2023/04/04 16:09:01 [notice] 24#24: gracefully shutting down
+2023/04/04 16:09:01 [notice] 23#23: gracefully shutting down
+2023/04/04 16:09:01 [notice] 21#21: exiting
+2023/04/04 16:09:01 [notice] 22#22: exiting
+2023/04/04 16:09:01 [notice] 24#24: exiting
+2023/04/04 16:09:01 [notice] 23#23: exiting
+2023/04/04 16:09:01 [notice] 21#21: exit
+2023/04/04 16:09:01 [notice] 22#22: exit
+2023/04/04 16:09:01 [notice] 24#24: exit
+2023/04/04 16:09:01 [notice] 23#23: exit
+2023/04/04 16:09:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 16:09:01 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 16:09:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 16:09:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/04 16:09:01 [notice] 1#1: worker process 24 exited with code 0
+2023/04/04 16:09:01 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 16:09:01 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 16:09:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 16:09:01 [notice] 1#1: exit
+2023/04/04 16:15:03 [notice] 1#1: using the "epoll" event method
+2023/04/04 16:15:03 [notice] 1#1: nginx/1.23.4
+2023/04/04 16:15:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 16:15:03 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 16:15:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 16:15:03 [notice] 1#1: start worker processes
+2023/04/04 16:15:03 [notice] 1#1: start worker process 21
+2023/04/04 16:15:03 [notice] 1#1: start worker process 22
+2023/04/04 16:15:03 [notice] 1#1: start worker process 23
+2023/04/04 16:15:03 [notice] 1#1: start worker process 24
+2023/04/04 16:25:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 16:25:49 [notice] 21#21: gracefully shutting down
+2023/04/04 16:25:49 [notice] 22#22: gracefully shutting down
+2023/04/04 16:25:49 [notice] 22#22: exiting
+2023/04/04 16:25:49 [notice] 24#24: gracefully shutting down
+2023/04/04 16:25:49 [notice] 21#21: exiting
+2023/04/04 16:25:49 [notice] 21#21: exit
+2023/04/04 16:25:49 [notice] 23#23: gracefully shutting down
+2023/04/04 16:25:49 [notice] 22#22: exit
+2023/04/04 16:25:49 [notice] 24#24: exiting
+2023/04/04 16:25:49 [notice] 23#23: exiting
+2023/04/04 16:25:49 [notice] 24#24: exit
+2023/04/04 16:25:49 [notice] 23#23: exit
+2023/04/04 16:25:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/04 16:25:49 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 16:25:49 [notice] 1#1: worker process 24 exited with code 0
+2023/04/04 16:25:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 16:25:49 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/04 16:25:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/04 16:25:49 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 16:25:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 16:25:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 16:25:49 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 16:25:49 [notice] 1#1: exit
+2023/04/04 16:28:46 [notice] 1#1: using the "epoll" event method
+2023/04/04 16:28:46 [notice] 1#1: nginx/1.23.4
+2023/04/04 16:28:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 16:28:46 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 16:28:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 16:28:46 [notice] 1#1: start worker processes
+2023/04/04 16:28:46 [notice] 1#1: start worker process 20
+2023/04/04 16:28:46 [notice] 1#1: start worker process 21
+2023/04/04 16:28:46 [notice] 1#1: start worker process 22
+2023/04/04 16:28:46 [notice] 1#1: start worker process 23
+2023/04/04 16:28:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/04 16:28:56 [notice] 20#20: gracefully shutting down
+2023/04/04 16:28:56 [notice] 21#21: gracefully shutting down
+2023/04/04 16:28:56 [notice] 20#20: exiting
+2023/04/04 16:28:56 [notice] 20#20: exit
+2023/04/04 16:28:56 [notice] 22#22: gracefully shutting down
+2023/04/04 16:28:56 [notice] 22#22: exiting
+2023/04/04 16:28:56 [notice] 23#23: gracefully shutting down
+2023/04/04 16:28:56 [notice] 23#23: exiting
+2023/04/04 16:28:56 [notice] 21#21: exiting
+2023/04/04 16:28:56 [notice] 22#22: exit
+2023/04/04 16:28:56 [notice] 23#23: exit
+2023/04/04 16:28:56 [notice] 21#21: exit
+2023/04/04 16:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/04 16:28:57 [notice] 1#1: worker process 20 exited with code 0
+2023/04/04 16:28:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/04 16:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/04 16:28:57 [notice] 1#1: worker process 21 exited with code 0
+2023/04/04 16:28:57 [notice] 1#1: worker process 22 exited with code 0
+2023/04/04 16:28:57 [notice] 1#1: worker process 23 exited with code 0
+2023/04/04 16:28:57 [notice] 1#1: exit
+2023/04/04 16:53:06 [notice] 1#1: using the "epoll" event method
+2023/04/04 16:53:06 [notice] 1#1: nginx/1.23.4
+2023/04/04 16:53:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 16:53:06 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/04 16:53:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 16:53:06 [notice] 1#1: start worker processes
+2023/04/04 16:53:06 [notice] 1#1: start worker process 21
+2023/04/04 16:53:06 [notice] 1#1: start worker process 22
+2023/04/04 16:53:06 [notice] 1#1: start worker process 23
+2023/04/04 16:53:06 [notice] 1#1: start worker process 24

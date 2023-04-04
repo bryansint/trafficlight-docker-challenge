@@ -1,0 +1,42 @@
+version: "3.9"
+
+# NOTA para Albert: para poder hacer todo de manera simultánea, es decir para que me permita ejecutar la tarea 2 y la tarea 3 sin problema,
+# debes tener en cuenta que cuando en la tarea “2.1” del reto  se pide una red específica aqui yo la configure de la siguiente manera: configs:
+# 'docker network create --subnet 172.30.0.0/16 --gateway 172.30.0.1 traffic-light'. Ya que de lo contrario posteriormente al generar este compose
+# al repartir el rango de IP si ponia la 172.20.0.0 daba problemas debido a que ya estaria ocupada por "traffic-light". Además de esto en las app.js
+# de los respectivos colores se requiere añadir un nuevo rango de ip permitida  y denegada. Todos estos cambios se deben llevar a cabo si se pretende tener todo
+# en la vida, pero si nuestro objetivo es servir solo por un solo puerto (80) dejemos la configuracion como esta sin tocar las app.js 
+
+services:
+  red:
+    image: trafficlight/red:v1.0
+    networks:
+      - traffic-light
+
+  yellow:
+    image: trafficlight/yellow:v1.0
+    networks:
+      - traffic-light
+
+  green:
+    image: trafficlight/green:v1.0
+    networks:
+      - traffic-light
+
+  nginx-load-balancer:
+    image: nginx
+    ports:
+      - "80:80"    
+    networks:
+      - traffic-light
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./var/log/nginx:/var/log/nginx
+    
+
+networks:
+  traffic-light:
+    ipam:
+        config:
+          - subnet: "172.20.0.0/16"
+            gateway: "172.20.0.1"
